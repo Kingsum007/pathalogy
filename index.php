@@ -1,0 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION['username'])==null)
+{
+    header('location:login.php');
+}
+else
+{
+    header('location:dashboard.php');
+}
