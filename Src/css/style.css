@@ -1,1 +1,90 @@
+.label_main{
+    font-weight: 500;
+}
 
+.form-group.rd_bg_cst1, .form-group.rd_bg_cst2 {
+    background: #343A40;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}   
+
+.register-form {
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0px 0px 15px 5px #e1e1e1;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2.text-center.head_tt_mn {
+    padding: 15px 0px 15px 0px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #343A40;
+}
+
+body.indx_body{
+    background-image: url('../img/Curves.png');
+    background-size: cover;
+}
+
+.col-sm-5.mx-auto.login_frm_cst {
+    margin-top: 110px;
+}
+
+.logo_cstm.text-center img {
+    width: 60px;
+}
+
+.col-sm-5.mx-auto.login_frm_cst form {
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 20px 0px 0px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 30%);
+}
+
+.frm_head.text-center h1 {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+form input[type="text"], form input[type="password"] {
+    border-radius: 0px;
+    margin-right: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 22px 0px 22px 15px;
+}
+
+span.input-group-text.cstm_icnns, span.input-group-text.cstm_icnnstwo {
+    margin-left: 20px;
+    border-radius: 0px;
+    background: #0984E3;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+button.btn.btn-primary.btn-block.btn_sbmt {
+    margin-top: 30px;
+    border-radius: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 10px 0px 10px 0px;
+}
+
+.form-check.frm_cst_cbx {
+    margin-left: 20px;
+}
+
+.form-check.frm_cst_cbx input[type="checkbox"]{
+    margin-top: 6px;
+}
+
+.form-check.frm_cst_cbx label {
+    font-size: 14px;
+    color: #444444;
+}
